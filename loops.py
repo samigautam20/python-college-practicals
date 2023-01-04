@@ -1,9 +1,9 @@
-user_input = char(input("Enter A, B, or C: "))
+user_input = input("Enter A, B, or C: ")
 if user_input == 'A':
-print('Apple')
+ print("Apple")
 elif user_input == 'B':
-print('Banana')
+ print("Banana")
 elif user_input == 'C':
-print('Coconut')
+ print("Coconut")
 else:
-print('Invalid input')
+ print("Invalid input")
