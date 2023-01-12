@@ -1,9 +1,16 @@
 user_input = input("Enter A, B, or C: ")
-if user_input == 'A':
- print("Apple")
-elif user_input == 'B':
- print("Banana")
-elif user_input == 'C':
- print("Coconut")
+listA=["A","B","c"]
+if user_input not in listA:
+ print(":)")
 else:
- print("Invalid input")
+ if user_input == 'A': 
+  print("Apple") 
+ else:
+  if user_input == 'B': 
+   print("Banana")  
+  else: 
+   if user_input == 'C': 
+    print("Coconut") 
+   else: 
+     print("Invalid input") 
+print("Sami Gautam") 
