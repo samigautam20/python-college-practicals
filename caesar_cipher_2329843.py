@@ -1,3 +1,4 @@
+#author- Sami Gautam
 #importing string module which is used to define the variable "charctr" as a concatenation of the string of uppercase letters from the ASCII character set
 import string
 charctr = string.ascii_uppercase + string.ascii_uppercase
@@ -74,3 +75,4 @@ while True:
         break
     else:
         continue
+#the program ends here
