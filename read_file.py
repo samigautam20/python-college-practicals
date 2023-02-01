@@ -1,0 +1,5 @@
+f=open("intro.txt","a")
+f.write("\nI am a computer science student.")
+f.close()
+f=open("intro.txt","r") 
+print(f.read())
