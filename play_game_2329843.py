@@ -1,6 +1,6 @@
 #Author- Sami Gautam
 #importing necessary codes
-from noughtsandcrosses_SamiGautam import *
+from noughtsandcrosses_2329843 import *
 
 def main():
     #array list of values ,used as game board
